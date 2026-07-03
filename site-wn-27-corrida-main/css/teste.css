@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAV igual Uber */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: black;
+  color: white;
+}
+
+.logo {
+  color: #ff4da6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+/* BOTÃO */
+.btn {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* CONTAINER PRINCIPAL (ESSENCIAL) */
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* ESQUERDA */
+.left {
+  width: 40%;
+  padding: 60px;
+}
+
+.left h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* BOX DOS INPUTS (igual Uber card) */
+.box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* INPUTS estilo Uber */
+input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background: #f2f2f2;
+}
+
+/* BOTÃO ROSA WN27B */
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4da6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* MAPA DIREITA (ESSENCIAL) */
+#map {
+  width: 60%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* esquerda */
+.left {
+  width: 40%;
+  padding: 60px;
+}
+
+/* direita (imagem) */
+.right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.right img {
+  width: 90%;
+  max-width: 600px;
+}
