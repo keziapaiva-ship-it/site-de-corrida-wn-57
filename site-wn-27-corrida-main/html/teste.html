@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WN27B</title>
+
+    <link rel="stylesheet" href="/css/teste.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+
+<body>
+
+    <body>
+
+        <nav class="nav">
+            <div class="logo">WN27B</div>
+
+            <div class="menu">
+                <a href="#">Viajar</a>
+                <a href="#">Ganhe dinheiro</a>
+                <a href="#">Ajuda</a>
+            </div>
+
+            <button class="btn">Entrar</button>
+        </nav>
+
+        <div class="container">
+
+            <!-- ESQUERDA -->
+            <div class="left">
+
+                <h1>Vá a qualquer lugar com WN27B</h1>
+
+                <div class="box">
+
+                    <input id="origem" placeholder="Local de partida">
+                    <input id="destino" placeholder="Local de chegada">
+
+                    <button onclick="buscarRota()">Ver preços</button>
+
+                </div>
+
+            </div>
+            <!-- DIREITA -->
+          
+            <!-- DIREITA MAPA -->
+            <div id="map"></div>
+
+        </div>
+
+    </body>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
